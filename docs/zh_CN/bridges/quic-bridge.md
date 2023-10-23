@@ -199,7 +199,7 @@ $ nanomq start --old_conf nanomq.conf
 
 1. 为远端 EMQX Broker 订阅消息主题：
 
-   为 **EMQX** 订阅转发主题 “`forward1/#`”，用于接收由 **NanoMQ **转发的数据：
+   为 **EMQX** 订阅转发主题 “`forward1/#`”，用于接收由 **NanoMQ**转发的数据：
 
    新建一个命令行窗口，前往 build 文件夹下的 nanomq_cli 文件夹，执行以下命令进行订阅：
 
@@ -208,7 +208,7 @@ $ nanomq start --old_conf nanomq.conf
    ## -p {端口号，如不指定将使用默认端口号 1883（MQTT）或 14567（QUIC）}
    ## -t {主题名称}
    ## --quic {开启 quic}
-   ## --q {消息 QoS，可选值 0、1、2}
+   ## -q {消息 QoS，可选值 0、1、2}
    ## --m {消息 payload}
    ## -u {用户名} 
    ## -P {密码}
